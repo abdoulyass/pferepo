@@ -1,0 +1,43 @@
+/* style.css */
+/* style.css */
+
+.containerS {
+    max-width: 800px; /* Définition de la largeur maximale */
+    margin: 0 auto; /* Centrer horizontalement */
+  }
+  
+  .list-group-itemS {
+    background-color: #f8f9fa; /* Couleur de fond des éléments de liste */
+    border: none; /* Supprimer la bordure */
+    margin-bottom: 10px; /* Espacement entre les éléments de la liste */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 20px; /* Espacement interne */
+    transition: box-shadow 0.3s ease; /* Transition de l'ombre */
+  }
+.modal-header {
+    border: none; /* Supprime la bordure du header */
+  }
+  
+.modal-footer {
+    border: none; /* Supprime la bordure du footer */
+  }
+  
+  .list-group-itemS:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajouter une ombre au survol */
+  }
+  
+  .list-group-itemS h5 {
+    color: #D8942F; /* Couleur du titre */
+    margin-bottom: 5px; /* Espacement en bas du titre */
+    font-weight: bold;
+  }
+  
+  .list-group-itemS p {
+    margin-bottom: 5px; /* Espacement entre les paragraphes */
+  }
+  
+  .list-group-itemS p strong {
+    font-weight: bold; /* Mettre en gras les étiquettes */
+    color: #555; /* Couleur des étiquettes */
+  }
+  

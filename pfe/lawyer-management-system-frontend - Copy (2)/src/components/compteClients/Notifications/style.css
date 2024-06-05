@@ -1,0 +1,30 @@
+.notifications-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .notifications-title {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .list-group-item {
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .lawyer-name {
+    font-weight: bold;
+    color: #D8942F;
+    text-decoration: underline; /* Bleu Bootstrap */
+  }
+  
+  .notification-message {
+    margin-left: 10px;
+  }
+  

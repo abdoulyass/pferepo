@@ -1,0 +1,83 @@
+.container-rev {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  width: 70%;
+  align-items: center;
+  overflow-y: auto;
+  
+}
+
+.title-rev {
+  color: #343a40;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.row-rev {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.btn-info {
+  background-color: #D8942F;
+  color: #fff;
+  border-color: #D8942F;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-info:hover {
+  background-color: #be8d42;
+  color: #fff;
+  transform: translateY(-2px);
+  border-color: #be8d42 ;
+}
+.btn-det:hover {
+  color: #fff;
+  transform: translateY(-2px);
+}
+.btn-det{
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+.total-rev {
+  color: #6c757d;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* style.css */
+
+/* Style pour les listes */
+.list {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+/* Style pour les éléments de liste */
+.list-item {
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+/* Style pour les éléments de liste au survol */
+.list-item:hover {
+  background-color: #e0e0e0;
+}
+

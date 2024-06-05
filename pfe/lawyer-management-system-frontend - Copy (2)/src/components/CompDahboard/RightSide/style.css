@@ -1,0 +1,11 @@
+.RightSide{
+    display: flex;
+    flex-direction: column;
+    height: 400px;;
+    width: 27%;
+    justify-content: space-evenly;
+    position: relative;
+ 
+}
+
+

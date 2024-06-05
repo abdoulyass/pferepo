@@ -1,0 +1,21 @@
+.btn-primaryCom{
+  background-color: #D8942F;
+    color: #fff;
+}
+.btn-primaryCom:hover{
+  background-color: #cf9c4f;
+    color: #fff;
+}
+
+.cmdcontainer{
+  padding: 5%;
+}
+.spinner-containerc {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  overflow: hidden;
+}

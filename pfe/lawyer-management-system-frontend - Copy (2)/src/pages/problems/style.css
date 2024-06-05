@@ -1,0 +1,61 @@
+ .box {
+    margin: 15px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    padding-top: 15px !important;
+    width: 850px;
+    border: none;
+}
+.img-box img{
+    max-width: 68px;
+    height: 65px;
+    margin-top: 5px;
+    z-index: 100;
+
+}
+.backGround2{
+    position: absolute;
+    width: 351px;
+    top: -57px;
+}
+.AppReq{
+    background: white!important;
+}
+.backGround {
+    position: absolute;
+    right: -129px;
+    top: -34px;
+    width: 800px;
+}
+
+.demander_travail {
+    color: #fff;
+    background-color: #fcb958;
+    border: none;
+    border-radius: 5px;
+    border-radius: 11px;
+    padding: 11px;
+    height: 43px;
+    margin-top: 1%;
+    position: absolute;
+    right: 0;
+}
+ .box .client_text {
+    margin-top: 20px;
+}
+.client_detail{
+    gap: 73%;
+    width: 100%;
+}
+.problems{
+    display: flex;
+    flex-direction: column;
+}
+.client_id{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    width: 100%;
+    gap: 3%;
+}

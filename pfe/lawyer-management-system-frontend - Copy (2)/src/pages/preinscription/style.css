@@ -1,0 +1,18 @@
+
+.updateinfocont{
+    width: 70%;
+    height: 100%;
+    background: white;
+    z-index: 1000;
+    margin-left: 14%;
+    margin-top: 100px;
+    border-radius: 14px;
+}
+.loading-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #D8942F!important;
+    overflow: hidden;
+}

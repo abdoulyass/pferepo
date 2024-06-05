@@ -1,0 +1,97 @@
+.acceuil-wrapper{
+  height: 990px;
+}
+
+
+.containerHome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    margin-bottom: 0 ;
+    color: #fff;
+    font-size: x-large;
+  
+  }
+  
+  
+  .text-container {
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start;
+    margin: 0 6rem;
+    
+  }
+  
+  .image-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lawyer-image {
+    width: 80%;
+    height: auto;
+  }
+  .h2-acceuil{
+    margin-bottom: 30px;
+  }
+  
+  .button-link {
+    background-color: #D8942F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .acceuil-wrapper{
+      height: 690px;
+    }
+    .containerHome {
+      flex-direction: column; 
+      height: auto; 
+      padding: 20px;
+      background-color: rgb(77, 153, 143); 
+      background-image: none !important;
+    }
+  
+    .text-container {
+      width: 100%; 
+      margin: 100px; 
+      text-align: center; 
+      align-items: center;
+      padding: 0; 
+    }
+  
+    .text-container p {
+      margin-bottom: 20px; 
+    }
+  
+    .image-container {
+      display: none; 
+    }
+    .h2acceuil{
+      margin-top: 110px;
+    }
+    .button-cont{
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .text-container {
+      margin: 0 3rem;
+    }
+  }
+  
+

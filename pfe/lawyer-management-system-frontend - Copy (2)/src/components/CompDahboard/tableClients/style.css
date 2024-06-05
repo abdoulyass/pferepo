@@ -1,0 +1,44 @@
+.btn-dangerCl{
+    background-color: #D8942F;
+    color: #fff;
+}
+.btn-dangerCl:hover{
+    background-color: #cf9c4f;
+    color: #fff;
+}
+.clients{
+margin: 0;
+padding: 0;
+width: 100%!important;
+}
+.clients h2 {
+    font-size: 25px;
+  
+}
+
+.prflimg{
+    width: 50px;
+}
+.prfl{
+    padding-left:37%;
+}
+h5 {
+    text-align: center;
+}
+.col-md-12 h2{
+    margin-left: 6%!important;
+    font-size: 28px;
+}
+.notfound{
+    text-align: center;
+    font-size: 20px;
+    margin: 13% 8%;
+    z-index: 100;
+}
+
+.shearch{
+    z-index: 1000;
+}
+body{
+    overflow-x: hidden;
+}

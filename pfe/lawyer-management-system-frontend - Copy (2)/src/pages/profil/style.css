@@ -1,0 +1,30 @@
+.profil{
+    width: 74%;
+    height: 100%;
+    margin: 129px;
+}
+.backGround2{
+    position: absolute;
+    width: 351px;
+    top: -57px;
+    left: 0;
+}
+.AppReq{
+    background: white!important;
+}
+.backGround {
+    position: absolute;
+    right: -129px;
+    top: -34px;
+    width: 800px;
+}
+.updateinfo{
+    width: 20%;
+    margin-left: 79%;
+    border-radius: 7px;
+}
+.contnuer {
+    position: absolute;
+    right: 8px;
+    bottom: 10px;
+}

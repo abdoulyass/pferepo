@@ -1,0 +1,59 @@
+/* style.css */
+
+.containerR {
+    margin: 0 20%;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffffff; /* Ajout du fond blanc */
+  }
+  .containerR h2 {
+    color: #D8942F;
+  }
+  
+  
+ 
+  .form-groupR {
+    margin-bottom: 20px;
+  }
+
+  .form-groupR label {
+    font-weight: bold; /* Met en gras le texte des labels */
+    margin-bottom: 5px; /* Ajoute un petit espacement en bas des labels */
+     /* Affiche chaque label sur une ligne séparée */
+  }
+  
+  .form-controlR {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+.containerR{
+  z-index: 100;
+}
+  
+  .form-control-fileR {
+    width: auto;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .btn-primaryR {
+    background-color: #D8942F;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primaryR:hover {
+    background-color: #a87933;
+    color: #fff;
+  }
+  
